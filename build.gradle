@@ -44,7 +44,7 @@ buildscript {
 }
 
 allprojects {
-    group 'com.alfred.ros'
+    group 'org.ros.rosjava_messages'
     version = project.catkin.pkg.version
 }
 
