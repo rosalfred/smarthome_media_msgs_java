@@ -25,5 +25,5 @@ catkin_package()
 
 # Change this to match the maven group name you have specified in the 
 # allprojects closure the root build.gradle
-install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/alfred/ros/media_msgs/ 
-        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/alfred/ros/media_msgs)
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/media_msgs/ 
+        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/media_msgs)
