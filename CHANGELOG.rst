@@ -2,8 +2,8 @@
 Changelog for package media_msgs_java
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.79 (2016-05-29)
+-------------------
 * Add license
 * Update package file description
 * Contributors: Erwan Le Huitouze

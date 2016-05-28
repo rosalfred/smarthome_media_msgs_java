@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>media_msgs_java</name>
-  <version>0.1.78</version>
+  <version>0.1.79</version>
   <description>Java generation for media_msgs package</description>
 
   <maintainer email="mick.gaillard@gmail.com">Mickaël Gaillard</maintainer>
