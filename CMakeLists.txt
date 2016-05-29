@@ -9,7 +9,9 @@ project(media_msgs_java)
 # Catkin
 ##############################################################################
 
-find_package(catkin REQUIRED rosjava_build_tools)
+find_package(catkin REQUIRED
+    rosjava_build_tools
+    media_msgs)
 
 # Set the gradle targets you want catkin's make to run by default, e.g.
 #   catkin_rosjava_setup(installApp)
@@ -23,7 +25,7 @@ catkin_package()
 # Installation
 ##############################################################################
 
-# Change this to match the maven group name you have specified in the 
+# Change this to match the maven group name you have specified in the
 # allprojects closure the root build.gradle
-install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/media_msgs/ 
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/media_msgs/
         DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/media_msgs)
