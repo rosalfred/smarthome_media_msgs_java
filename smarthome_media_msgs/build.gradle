@@ -18,7 +18,7 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 try {
-    project.catkin.tree.generateMessageArtifact(project, 'media_msgs')
+    project.catkin.tree.generateMessageArtifact(project, 'smarthome_media_msgs')
 } catch (NullPointerException e) {
     println("Couldn't find media_msgs on the ROS_PACKAGE_PATH")
 }
@@ -26,5 +26,5 @@ try {
 /** Force clean when catkin_make was called. */
 /*afterEvaluate {
     generatePomFileForMavenJavaPublication.dependsOn clean
-    generateSources.dependsOn clean	
+    generateSources.dependsOn clean
 }*/

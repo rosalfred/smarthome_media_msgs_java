@@ -3,7 +3,7 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(media_msgs_java)
+project(smarthome_media_msgs_java)
 
 ##############################################################################
 # Catkin
@@ -11,7 +11,7 @@ project(media_msgs_java)
 
 find_package(catkin REQUIRED
     rosjava_build_tools
-    media_msgs)
+    smarthome_media_msgs)
 
 # Set the gradle targets you want catkin's make to run by default, e.g.
 #   catkin_rosjava_setup(installApp)

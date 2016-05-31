@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>media_msgs_java</name>
+  <name>smarthome_media_msgs_java</name>
   <version>0.1.79</version>
-  <description>Java generation for media_msgs package</description>
+  <description>Java generation for smarthome_media_msgs package</description>
 
   <maintainer email="mick.gaillard@gmail.com">Mickaël Gaillard</maintainer>
   <maintainer email="erwan.lehuitouze@gmail.com">Erwan Le Huitouze</maintainer>
@@ -13,7 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>media_msgs</build_depend>
+  <build_depend>smarthome_media_msgs</build_depend>
   <build_depend>rosjava_bootstrap</build_depend>
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>rosjava_messages</build_depend>

@@ -14,5 +14,5 @@
  * the License.
  */
 
-rootProject.name = 'media_msgs_java'
-include 'media_msgs'
+rootProject.name = 'smarthome_media_msgs_java'
+include 'smarthome_media_msgs'
