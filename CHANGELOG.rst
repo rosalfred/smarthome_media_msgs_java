@@ -8,6 +8,11 @@ Changelog for package media_msgs_java
 * Update package file description
 * Contributors: Erwan Le Huitouze
 
+Forthcoming
+-----------
+* Change package generation with genjava
+* Contributors: Erwan Le Huitouze
+
 0.1.71 (2015-11-08)
 -------------------
 * Apply new package architecture
