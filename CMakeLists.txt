@@ -9,7 +9,7 @@ project(smarthome_media_msgs_java)
 # Catkin
 ##############################################################################
 
-find_package(catkin REQUIRED genjava)
+find_package(catkin REQUIRED genjava smarthome_media_msgs)
 
 generate_rosjava_messages(
   PACKAGES
