@@ -20,6 +20,8 @@
 
   <!-- needed for genjava rosdistro dependency -->
   <build_depend>python-rosdistro</build_depend>
+  <!-- needed for genjava roslib dependency -->
+  <build_depend>roslib</build_depend>
 
   <run_depend>rosjava_build_tools</run_depend>
   <run_depend>genjava</run_depend>
