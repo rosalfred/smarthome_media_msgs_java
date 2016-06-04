@@ -2,8 +2,8 @@
 Changelog for package media_msgs_java
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.82 (2016-06-04)
+-------------------
 * Add roslib to packages dependencies
 * Add rosjava_messages to packages dependencies
 * Fix rosdistro dependency (needed by genjava)
